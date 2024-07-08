@@ -112,7 +112,7 @@ Log into client one and right click the Windows start button on the bottom left,
 
 </p>
 <p>
-Right click the Windows button on the bottom left of the screen and go to system --> Remot Desktop --> Select user that cnat remotely access this PC --> Add and then enter the name "Domain Users" and click check names. Then click ok. This allows any of the users to remotely log onto client 1. 
+Right click the Windows button on the bottom left of the screen and go to system --> Remote Desktop --> Select users that can remotely access this PC --> Add and then enter the name "Domain Users" and click check names. Then click ok. This allows any of the users to remotely log onto client 1. 
 
 </p>
 <br />
