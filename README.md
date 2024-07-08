@@ -83,13 +83,13 @@ Create a new Admin user with your name and add them to the security group "Domai
 <br />
 <p>
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1440" alt="Screen Shot 2024-06-28 at 1 24 51 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/ec6ab2a4-b1f4-4152-93c3-16e32f9fdd6b">
 </p>
 <br />
-<img width="1440" alt="Screen Shot 2024-06-28 at 1 24 51 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/ec6ab2a4-b1f4-4152-93c3-16e32f9fdd6b">
 
-</p>
 <img width="1440" alt="Screen Shot 2024-06-28 at 1 33 23 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/5fe1f29a-888a-40a1-99da-cdcd9f2318dd">
+</p>
+
 
 <p>
 From the Azure portal, set the DNS server of client 1 to DC-1's private IP addres. Then restart it within the portal. 
@@ -97,10 +97,43 @@ From the Azure portal, set the DNS server of client 1 to DC-1's private IP addre
 <br />
 <p>
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1440" alt="Screen Shot 2024-06-28 at 1 24 18 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/16211b4c-9898-46c3-a197-9c0dd78761d9">
+
 </p>
 <p>
   
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log into client one and right click the Windows start button on the bottom left, go to system --> Rename this PC (Advanced) --> click change --> click domain and enter the domain name that you created earlier. The PC will restart and you will need to log back in 
 </p>
 <br />
+<p>
+  
+<img width="1440" alt="Screen Shot 2024-06-28 at 1 38 25 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/c22a8b84-42a3-428e-85ec-99da052e113e">
+
+
+</p>
+<p>
+Right click the Windows button on the bottome left of the screen and go to system --> Remot Desktop --> Select user that cnat remotely access this PC --> Add and then enter the name "Domain Users" and click check names. Then click ok. This allows any of the users to remotely log onto client 1. 
+
+</p>
+<br />
+<p>
+  
+<img width="1440" alt="Screen Shot 2024-06-28 at 1 24 18 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/16211b4c-9898-46c3-a197-9c0dd78761d9">
+
+</p>
+<p>
+  
+
+</p>
+<br />
+<p>
+  
+<img width="1440" alt="Screen Shot 2024-06-28 at 1 24 18 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/16211b4c-9898-46c3-a197-9c0dd78761d9">
+
+</p>
+<p>
+  
+Log into client one and right click the Windows start button on the bottom left, go to system --> Rename this PC (Advanced) --> click change --> click domain and enter the domain name that you created earlier. 
+</p>
+<br />
+
