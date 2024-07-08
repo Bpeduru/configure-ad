@@ -126,7 +126,7 @@ Right click the Windows button on the bottom left of the screen and go to system
 
 </p>
 <p>
-Login to DC-1 as admin account created earliert, open PowerShell_ise as an administrator, create a new file and paste the contents of this script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1), run the script and observe the accounts being created, when finished open Active Directory Users and Computeds and observe the accounts in the _EMPLOYEES folder. 
+Login to DC-1 as admin account created earlier, open PowerShell_ise as an administrator, create a new file and paste the contents of this script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1), run the script and observe the accounts being created, when finished open Active Directory Users and Computers and observe the accounts in the _EMPLOYEES folder. 
 
 </p>
 <br />
