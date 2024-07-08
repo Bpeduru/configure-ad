@@ -66,24 +66,33 @@ Log-into DC-1 and on the server manager click "Add Roles and Features", and hit 
 
 </p>
 <p>
-Restart and log back into DC-1 as a normal user. In server manager go to tools --> Active Directory Users and Computers and Create a new organizational unit called _EMPLOYEES and one called _ADMINS
+Restart and log back into DC-1 as a normal user. Make sure to put @yourdomain.com after the username since we just promoted it to a domain controller.  In server manager go to tools --> Active Directory Users and Computers and create a new organizational unit called _EMPLOYEES and one called _ADMINS
 </p>
 <br />
 <p>
 
+<img width="1440" alt="Screen Shot 2024-06-28 at 12 59 52 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/d23465fe-218f-4281-bad5-ff54b3047d97">
+</p>
+<br />
+<img width="1440" alt="Screen Shot 2024-06-28 at 1 06 33 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/60f35f8e-8e6e-489a-a73c-0d7c45b665c5">
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create a new Admin user with your name and add them to the security group "Domain Admins". This isn't required but it's good practice to have an admin account attached to a human name. Log out and log back in as this user. 
 </p>
 <br />
 <p>
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+<img width="1440" alt="Screen Shot 2024-06-28 at 1 24 51 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/ec6ab2a4-b1f4-4152-93c3-16e32f9fdd6b">
+
+</p>
+<img width="1440" alt="Screen Shot 2024-06-28 at 1 33 23 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/5fe1f29a-888a-40a1-99da-cdcd9f2318dd">
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From the Azure portal, set the DNS server of client 1 to DC-1's private IP addres. Then restart it within the portal. 
 </p>
 <br />
 <p>
