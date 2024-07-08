@@ -92,7 +92,7 @@ Create a new Admin user with your name and add them to the security group "Domai
 
 
 <p>
-From the Azure portal, set the DNS server of client 1 to DC-1's private IP addres. Then restart it within the portal. 
+From the Azure portal, set the DNS server of client 1 to DC-1's private IP address. Then restart it within the portal. 
 </p>
 <br />
 <p>
