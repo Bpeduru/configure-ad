@@ -36,22 +36,62 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-Create 2 virtual machines in Azure, one with Windows server and one with windows 10. Name the one with Windows server DC-1 and the other one Client 1
+Create 2 virtual machines in Azure, one with Windows Server 2022 and one with Windows 10. Name the one with Windows Server 2022 DC-1 and the other one Client 1. Make sure that they are both in the same resource group and virtual network. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1440" alt="Screen Shot 2024-06-28 at 11 59 14 AM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/c337969c-d9a0-422c-9323-5ef625fa15bb">
+
+</p>
+<p>
+Go into DC-1's Virtual NIC settings and set the IP Address to static. This will ensure the IP address does not change. 
+</p>
+<br />
+
+<p>
+<img width="1440" alt="Screen Shot 2024-06-28 at 12 33 14 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/d71ed208-14dc-47c2-aa00-41d185e496f0">
+
+</p>
+<br />
+<img width="1440" alt="Screen Shot 2024-06-28 at 12 35 46 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/e1120463-9611-46dd-baaa-7e0f009dcd74">
+
+</p>
+<p>
+Log-into DC-1 and on the server manager click "Add Roles and Features", and hit next until you reach server roles. Check the Active Directory Domain Services box and click "Add Features" and install it. Once done, hit the flag and click "promote this server to a domain controller. In the configuration wizard select "Add a new forest" and create your domain name. Click next and set your restore mode password. 
+</p>
+<br />
+<p>
+<img width="1440" alt="Screen Shot 2024-06-28 at 12 56 44 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/649d9958-6cfc-49e3-88de-ff203c24f5cf">
+
+</p>
+<p>
+Restart and log back into DC-1 as a normal user. In server manager go to tools --> Active Directory Users and Computers and Create a new organizational unit called _EMPLOYEES and one called _ADMINS
+</p>
+<br />
+<p>
+
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+<p>
+  
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+<p>
+  
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
