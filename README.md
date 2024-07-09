@@ -61,7 +61,7 @@ Go into DC-1's Virtual NIC settings and set the IP Address to static. This will 
 
 </p>
 <p>
-Log-into DC-1 and on the server manager click "Add Roles and Features", and hit next until you reach server roles. Check the Active Directory Domain Services box and click "Add Features" and install it. Once done, hit the flag and click "promote this server to a domain controller. In the configuration wizard select "Add a new forest" and create your domain name. Click next and set your restore mode password. 
+Log-into DC-1 and on the server manager click "Add Roles and Features", and hit next until you reach server roles. Check the Active Directory Domain Services box and click "Add Features" and install it. Once done, hit the flag on the top right next to "Manage" and click "promote this server to a domain controller. In the configuration wizard select "Add a new forest" and create your domain name. Click next and set your restore mode password. 
 </p>
 <br />
 <p>
