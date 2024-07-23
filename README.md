@@ -28,7 +28,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Setup Remote Desktop for Users
 - Create Additional Users and Test
 
-<h2>Deployment and Configuration tutorial</h2>
+<h2>Deployment and Configuration Tutorial</h2>
 
 <p>
 <img width="1440" alt="Screen Shot 2024-06-28 at 12 08 19 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/ab2968c9-746e-4160-94d6-12a12cdbb9ff">
