@@ -6,10 +6,6 @@
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -32,7 +28,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Setup Remote Desktop for Users
 - Create Additional Users and Test
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Deployment and Configuration tutorial</h2>
 
 <p>
 <img width="1440" alt="Screen Shot 2024-06-28 at 12 08 19 PM" src="https://github.com/Bpeduru/configure-ad/assets/171273980/ab2968c9-746e-4160-94d6-12a12cdbb9ff">
